@@ -44,4 +44,27 @@ nav {
   color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu {
+    width: 467px;
+    margin-top: 0;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
 }
