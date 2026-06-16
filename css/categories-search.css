@@ -14,7 +14,7 @@
   width: 312px;
   height: 220px;
   border-radius: 8px;
-  padding: 41px 0;
+  padding: 0 16px;
   text-align: center;
   text-decoration: none;
   color: var(--text-primary-color);
@@ -44,8 +44,8 @@
 
 @media screen and (min-width: 1024px) {
   .clickable-card {
-    width: 282px;
-    padding: 24px 0;
+    width: 420px;
+    height: 308px;
   }
 
   .clickable-card:focus-visible {
@@ -54,5 +54,20 @@
 
   .clickable-card:hover {
     background-color: #f1f1f1;
+  }
+
+  .clickable-card h3 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .clickable-card {
+    width: 280px;
+    height: 220px;
+  }
+
+  .clickable-card h3 {
+    font-size: 28px;
   }
 }
