@@ -21,14 +21,10 @@
 }
 
 .item header h4 {
-  font-weight: var(--title-weight);
-  font-size: 28px;
   margin: 24px 0;
 }
 
 .item p {
-  font-weight: var(--text-weight);
-  font-size: 20px;
   line-height: 32px;
 }
 
