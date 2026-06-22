@@ -39,4 +39,8 @@
   .testimonial-container {
     flex-direction: row;
   }
+
+  .testimonial-container article {
+    width: 384px;
+  }
 }
