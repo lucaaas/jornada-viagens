@@ -19,6 +19,11 @@ section.hero {
   text-align: center;
 }
 
+.footer-hero-img {
+  background: url("../img/footer-hero-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -30,6 +35,11 @@ section.hero {
     padding: 88px 60px;
     font-size: 32px;
   }
+
+  .footer-hero-img {
+    background: url("../img/footer-hero-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -40,6 +50,11 @@ section.hero {
 
   .hero h2 {
     padding: 88px 120px;
+  }
+
+  .footer-hero-img {
+    background: url("../img/footer-hero-desktop.jpg") no-repeat;
+    background-size: cover;
   }
 }
 
