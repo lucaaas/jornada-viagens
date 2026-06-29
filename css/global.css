@@ -75,6 +75,7 @@ h1 {
 
 .button {
   display: inline-block;
+  width: 100%;
   min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
