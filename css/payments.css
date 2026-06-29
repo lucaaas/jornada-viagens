@@ -1,43 +1,44 @@
 .payment-info-content .content-text {
-  margin: 24px 0;
+  margin-top: 24px;
 }
 
-.payments .image-content {
+.payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   height: 460px;
   width: 100%;
+  margin-top: 24px;
 }
 
-.bag {
+.first-image {
   background: url("../img/bag-mobile-tablet.jpg") no-repeat;
   background-size: cover;
 }
 
-.passport {
+.second-image {
   background: url("../img/passport-mobile-tablet.jpg") no-repeat;
   background-size: cover;
 }
 
-.people {
+.third-image {
   background: url("../img/people-mobile-tablet.jpg") no-repeat;
   background-size: cover;
   grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
-  .bag {
+  .first-image {
     background: url("../img/bag-desktop.jpg") no-repeat;
     background-size: cover;
   }
 
-  .passport {
+  .second-image {
     background: url("../img/passport-desktop.jpg") no-repeat;
     background-size: cover;
   }
 
-  .people {
+  .third-image {
     background: url("../img/people-desktop.jpg") no-repeat;
     background-size: cover;
   }
@@ -54,7 +55,7 @@
     width: 360px;
   }
 
-  .payments .image-content {
+  .payments .image-gallery {
     width: 790px;
   }
 }
