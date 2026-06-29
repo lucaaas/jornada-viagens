@@ -1,0 +1,24 @@
+.hero .packages-hero {
+  background: url("../img/hero-japan-mobile.jpg") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.packages-hero {
+  padding: 64px 24px 0;
+  color: #ffffff;
+}
+
+.packages-hero h1 {
+  font-size: 48px;
+}
+
+.packages-hero hr {
+  margin: 16px 0 32px;
+}
+
+.packages-hero p {
+  font-size: 20px;
+  line-height: 32px;
+  width: 312px;
+}
